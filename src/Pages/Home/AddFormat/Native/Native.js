@@ -18,7 +18,8 @@ const Native = () => {
               the level of interaction.
             </p>
             <p className="mt-24 text-secondary">
-              Learn more <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+              <a href="">Learn more</a>{" "}
+              <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
             </p>
           </div>
         </div>

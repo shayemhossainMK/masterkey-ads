@@ -18,7 +18,8 @@ const Skim = () => {
               CR to advertisers and CPM rates to publishers.
             </p>
             <p className="mt-20 text-secondary">
-              Learn more <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+              <a href="">Learn more</a>{" "}
+              <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
             </p>
           </div>
         </div>

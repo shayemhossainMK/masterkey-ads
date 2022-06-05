@@ -15,8 +15,9 @@ const PopUder = () => {
               opens landing page in behind. So, the user experience is not
               hampered much.
             </p>
-            <p className="mt-32 text-secondary">
-              Learn more <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+            <p className="mt-28 text-secondary">
+              <a href="">Learn more</a>{" "}
+              <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
             </p>
           </div>
         </div>

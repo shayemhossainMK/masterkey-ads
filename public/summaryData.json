@@ -1,0 +1,20 @@
+[
+    {
+        "id": "001",
+       "text":"Daily Impressions",
+        "number": "1",
+        "duration": "3"
+    },
+    {
+        "id": "002",
+        "text":"Paid",
+        "number": "500",
+        "duration": "4"
+    },
+    {
+        "id": "003",
+        "text":"Global Publishers",
+        "number": "8",
+        "duration": "4"
+    }
+]
