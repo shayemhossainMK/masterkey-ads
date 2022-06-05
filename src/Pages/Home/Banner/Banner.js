@@ -1,22 +1,28 @@
 import React from "react";
+import bannerImg from "../../../img/banner.png";
 
 const Banner = () => {
   return (
-    <div>
-      <div class="hero min-h-screen bg-base-200">
-        <div class="hero-content flex-col lg:flex-row-reverse">
-          <img
-            src="https://api.lorem.space/image/movie?w=260&h=400"
-            class="max-w-sm rounded-lg shadow-2xl"
-          />
-          <div>
-            <h1 class="text-5xl font-bold">Box Office News!</h1>
-            <p class="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
-            </p>
-            <button class="btn btn-primary">Get Started</button>
+    <div className="bg-gray-100">
+      <div className="md:px-20 px-5">
+        <div class="hero min-h-screen">
+          <div class="hero-content flex-col lg:flex-row-reverse">
+            <img src={bannerImg} />
+            <div className="order-1 md:order-2">
+              <h1 class="text-3xl font-bold">
+                IT Management Service & <br /> Support for Your Business.
+              </h1>
+
+              <p class="py-6 pr-28">
+                Provident cupiditate voluptatem et in. Quaerat fugiat ut
+                assumenda excepturi exercitationem quasi. In deleniti eaque aut
+                repudiandae et a id nisi.
+              </p>
+
+              <button class="btn btn-primary  rounded-full text-white">
+                Explore More
+              </button>
+            </div>
           </div>
         </div>
       </div>

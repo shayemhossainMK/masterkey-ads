@@ -33,6 +33,7 @@ const Navbar = () => {
               tabindex="0"
               class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
+              {/* this is for small screen */}
               <li>
                 <a>HOME</a>
               </li>
@@ -59,6 +60,7 @@ const Navbar = () => {
         </div>
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal text-secondary ">
+            {/* this is for big screen */}
             <li className="hover:text-primary">
               <a>HOME</a>
             </li>
