@@ -3,17 +3,17 @@ import "./Navbar.css";
 
 const Navbar = () => {
   return (
-    <div className="nav-font md:px-20 px-5 md:py-10 py-5">
+    <div className="nav-font md:px-20 px-1 md:py-10 py-5 bg-gray-100">
       <div className="flex justify-between px-3">
-        <a class="text-2xl font-bold uppercase">Logo</a>
-        <p className="font-semibold">
+        <a class="text-2xl font-bold hidden md:block uppercase">Logo</a>
+        <p className="font-semibold hidden md:block">
           <span className=" text-green-500">BN</span> / EN
         </p>
       </div>
-      <div class="navbar bg-base-100">
+      <div class="navbar">
         <div class="navbar-start lg:hidden">
           <div class="dropdown">
-            <label tabindex="0" class="btn btn-ghost lg:hidden">
+            <label tabindex="0" class=" lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 class="h-5 w-5"
@@ -58,8 +58,8 @@ const Navbar = () => {
           </div>
         </div>
         <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal">
-            <li>
+          <ul class="menu menu-horizontal text-secondary ">
+            <li className="hover:text-primary">
               <a>HOME</a>
             </li>
             <li>
@@ -83,7 +83,12 @@ const Navbar = () => {
           </ul>
         </div>
         <div class="navbar-end">
-          <a class="">Get started</a>
+          <div className="flex items-center bg-base-100 shadow-xl md:rounded-3xl rounded-xl px-5 md:px-7 py-1 md:py-2">
+            <p className="font-semibold">Login</p>
+            <p className="shadow-md ml-3 px-4 md:px-7 md:py-1 md:rounded-3xl rounded-xl text-white btn-primary">
+              Signup
+            </p>
+          </div>
         </div>
       </div>
     </div>
