@@ -5,6 +5,7 @@ import Native from "./Pages/Home/AddFormat/Native/Native";
 import PopUder from "./Pages/Home/AddFormat/PopUnder/PopUder";
 import Skim from "./Pages/Home/AddFormat/Skim/Skim";
 import Home from "./Pages/Home/Home/Home";
+import Footer from "./Shared/Footer/Footer";
 import Navbar from "./Shared/Navbar/Navbar";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
           <Route path="/skim" element={<Skim></Skim>}></Route>
         </Route>
       </Routes>
+      <Footer></Footer>
     </div>
   );
 }
