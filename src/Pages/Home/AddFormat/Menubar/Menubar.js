@@ -11,7 +11,7 @@ const Menubar = () => {
             className="px-7 mx-10 bg-gray-200 py-2 rounded-3xl shadow-md "
             to="/popunder"
           >
-            POP UNDER
+            POP-UNDER
           </CustomLink>
           <CustomLink
             className="px-7 mx-10 bg-gray-200 py-2 rounded-3xl shadow-md "

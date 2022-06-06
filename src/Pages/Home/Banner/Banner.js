@@ -2,16 +2,17 @@ import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import bannerImg from "../../../img/banner.png";
+import "./Banner.css";
 
 const Banner = () => {
   return (
-    <div className="bg-gray-100">
+    <div className="bg-gray-100 ">
       <div className="md:px-20 px-5">
         <div class="hero min-h-screen">
           <div class="hero-content flex-col lg:flex-row-reverse">
             <img className="order-2 md:order-1" src={bannerImg} />
             <div className="order-1 md:order-2">
-              <h1 class="text-3xl font-bold">
+              <h1 class="text-3xl font-bold banner">
                 IT Management Service & <br /> Support for Your Business.
               </h1>
 
