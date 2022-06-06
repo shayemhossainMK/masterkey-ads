@@ -13,7 +13,7 @@ const Banner = () => {
             <img className="order-2 md:order-1" src={bannerImg} />
             <div className="order-1 md:order-2">
               <h1 class="text-3xl font-bold banner">
-                IT Management Service & <br /> Support for Your Business.
+                Add Management Service & <br /> Support for Your Business.
               </h1>
 
               <p class="py-6 md:pr-28">
