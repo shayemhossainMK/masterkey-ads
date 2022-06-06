@@ -1,4 +1,5 @@
 import React from "react";
+import CustomLink from "../CustomLink";
 import "./Navbar.css";
 
 const Navbar = () => {
@@ -62,7 +63,7 @@ const Navbar = () => {
           <ul class="menu menu-horizontal text-secondary ">
             {/* this is for big screen */}
             <li className="hover:text-primary">
-              <a>HOME</a>
+              <a className="text-primary">HOME</a>
             </li>
             <li>
               <a>ADVERTISERS</a>

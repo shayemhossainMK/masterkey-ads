@@ -48,7 +48,7 @@ const Footer = () => {
             AD FORMATS
           </a>
         </div>
-        <div className="mx-auto">
+        <div className="mx-auto mt-10 md:mt-0">
           <p className="text-secondary text-xl mb-3">Documentation</p>
           <a className="font-bold" href="">
             TERMS & CONDITIONS
@@ -69,7 +69,7 @@ const Footer = () => {
             BLOG
           </a>
         </div>
-        <div className="mx-auto">
+        <div className="mx-auto mt-10 md:mt-0">
           <p className="text-secondary text-xl mb-3">Support</p>
 
           <a className="mb-2 font-bold" href="">
