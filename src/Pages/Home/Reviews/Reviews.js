@@ -5,7 +5,6 @@ import "slick-carousel/slick/slick-theme.css";
 import slider1 from "../../../img/reviews/slider1.jpg";
 import slider2 from "../../../img/reviews/slider2.jpg";
 import slider3 from "../../../img/reviews/slider3.png";
-import slider4 from "../../../img/reviews/slider4.png";
 import slider5 from "../../../img/reviews/slider5.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleLeft, faAngleRight } from "@fortawesome/free-solid-svg-icons";
@@ -37,11 +36,11 @@ export default class Reviews extends Component {
         </div>
         <Slider ref={(c) => (this.slider = c)} {...settings}>
           <div key={1} className=" mx-10 pr-5">
-            <div className="flex">
-              <img className="max-w-md" src={slider1} alt="" />
-              <div className="px-5 md:px-10">
+            <div className="md:flex">
+              <img className="max-w-sm" src={slider1} alt="" />
+              <div className="md:px-10">
                 <h4 className="text-xl font-bold my-3">Samuel Howells</h4>
-                <p className="pr-0 md:pr-48">
+                <p className="md:pr-48">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Rerum autem aspernatur impedit velit at deserunt laborum,
                   cupiditate reiciendis nisi repellat. Lorem ipsum dolor sit
@@ -50,28 +49,26 @@ export default class Reviews extends Component {
               </div>
             </div>
           </div>
-          <div key={2} className=" mx-10 pr-5">
-            <div className="flex">
+          <div key={2} className=" md:mx-10 pr-5">
+            <div className="md:flex">
               <img className="max-w-sm" src={slider5} alt="" />
-              <div className="px-5 md:px-10">
+              <div className="md:px-10">
                 <h4 className="my-3 font-bold text-xl">William Blake</h4>
-                <p className="pr-o md:pr-48">
+                <p className=" md:pr-48">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Rerum autem aspernatur impedit velit at deserunt laborum,
                   cupiditate reiciendis nisi repellat. Lorem ipsum dolor sit
-                  amet consectetur adipisicing elit. Error animi ullam pariatur
-                  voluptatem ad iure perferendis suscipit debitis architecto
-                  earum!
+                  amet consectetur adipisicing elit.
                 </p>
               </div>
             </div>
           </div>
           <div key={3} className=" mx-10 pr-5">
-            <div className="flex">
+            <div className="md:flex">
               <img className="max-w-sm" src={slider2} alt="" />
-              <div className="px-5 md:px-10">
+              <div className=" md:px-10">
                 <h4 className="text-xl font-bold my-3">Hayden Hutchinson</h4>
-                <p className="pr-0 md:pr-48">
+                <p className=" md:pr-48">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Rerum autem aspernatur impedit velit at deserunt laborum,
                   cupiditate reiciendis nisi repellat. Lorem ipsum dolor sit
@@ -83,33 +80,17 @@ export default class Reviews extends Component {
             </div>
           </div>
           <div key={4} className=" mx-10 pr-5">
-            <div className="flex">
+            <div className="md:flex">
               <img className="max-w-sm" src={slider3} alt="" />
-              <div className="mx-5 md:mx-10">
+              <div className="md:mx-10">
                 <h4 className="font-bold text-xl my-3">Laura Waters</h4>
-                <p className="pr-0 md:pr-48">
+                <p className="md:pr-48">
                   Lorem ipsum dolor sit amet consectetur, adipisicing elit.
                   Rerum autem aspernatur impedit velit at deserunt laborum,
                   cupiditate reiciendis nisi repellat. Lorem ipsum dolor sit
                   amet consectetur adipisicing elit. Accusamus, quis
                   consequuntur! Veritatis itaque hic ducimus expedita.
                   Exercitationem sequi repellat hic!
-                </p>
-              </div>
-            </div>
-          </div>
-          <div key={5} className=" mx-10 pr-5">
-            <div className="flex">
-              <img className="max-w-sm" src={slider4} alt="" />
-              <div className="px-5 md:px-10">
-                <h4 className="text-xl font-bold my-3">Alisha Potter</h4>
-                <p className="pr-0 md:pr-48">
-                  Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-                  Rerum autem aspernatur impedit velit at deserunt laborum,
-                  cupiditate reiciendis nisi repellat. Lorem ipsum, dolor sit
-                  amet consectetur adipisicing elit. Sunt dignissimos sint
-                  cupiditate adipisci distinctio earum aspernatur saepe, illum
-                  ipsa dolore?
                 </p>
               </div>
             </div>

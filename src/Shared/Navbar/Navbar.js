@@ -86,7 +86,7 @@ const Navbar = () => {
           </ul>
         </div>
         <div class="navbar-end">
-          <div className="flex items-center bg-base-100 shadow-xl md:rounded-3xl rounded-xl px-5 md:px-7 py-1 md:py-2">
+          <div className="flex items-center bg-base-100 shadow-xl md:rounded-3xl rounded-xl px-5 md:px-7 py-2 md:py-2">
             <p className="font-semibold">Login</p>
             <p className="shadow-md ml-3 px-4 md:px-7 md:py-1 md:rounded-3xl rounded-xl text-white btn-primary">
               Signup
