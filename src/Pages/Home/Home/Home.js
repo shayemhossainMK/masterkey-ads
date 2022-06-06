@@ -13,6 +13,7 @@ const Home = () => {
       <Services></Services>
       <AddFormat></AddFormat>
       <Summary></Summary>
+      <Reviews></Reviews>
     </div>
   );
 };
