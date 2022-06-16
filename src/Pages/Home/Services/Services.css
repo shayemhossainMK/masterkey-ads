@@ -1,0 +1,13 @@
+.service-card {
+  box-shadow: 10px 10px 10px rgb(230, 229, 229),
+    -10px -10px 8px rgb(236, 236, 236);
+}
+.service-btn {
+  background-color: #644f9c;
+  color: white;
+  transition: all ease-in-out 0.3s;
+}
+.service-btn:hover {
+  background-color: #ff6f00;
+  transform: scale(0.9);
+}

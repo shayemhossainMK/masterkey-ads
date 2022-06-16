@@ -1,57 +1,53 @@
-import {
-  faBullhorn,
-  faPaperPlane,
-  faUser,
-} from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
+import influencer from "../../../img/services/influencer.png";
+import advertiser from "../../../img/services/advertiser.png";
+import publisher from "../../../img/services/publisher.png";
+import "./Services.css";
 
 const Services = () => {
   return (
     <div className="bg-gray-100">
-      <div className="px-5 md:px-20 py-10">
+      <div className="px-5 md:px-20 pb-10">
         <div className="text-center">
-          <p className="font-bold text-secondary text-2xl">
+          <p className="font-bold text-secondary text-3xl">
             AVAILABLE FOR EVERYONE
           </p>
-          <p className="text-primary">Our services</p>
+          <p className="mt-2">
+            Monetize your online presence and earn more. <br />
+            <span>Join us now</span>
+          </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 text-center gap-5 py-10">
-          <div className="shadow-xl rounded-lg py-5 px-2">
-            <FontAwesomeIcon
-              className="rounded-full p-8 text-6xl bg-base-100 text-blue-900"
-              icon={faBullhorn}
-            />
-            <p className="py-3">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Obcaecati id quod quia eum pariatur velit accusantium maiores
-              labore possimus distinctio?
-            </p>
-            <button className="btn btn-xs btn-secondary">Read more</button>
+          <div className="service-card shadow-md hover:bg-secondary hover:text-white duration-500 rounded-lg py-5 px-2">
+            <div className="w-32 mx-auto p-4 bg-base-100 rounded-full">
+              <img className="w-32 mx-auto p-5 " src={advertiser} alt="" />
+            </div>
+            <p className="py-3 mb-3">Advertiser</p>
+            <a href="advertiser.masterkey.digital/bn/access">
+              <button className="btn btn-sm service-btn">
+                Get the best ROI
+              </button>
+            </a>
           </div>
-          <div className="shadow-xl rounded-lg py-5 px-2">
-            <FontAwesomeIcon
-              className="rounded-full p-8 text-6xl bg-base-100 text-blue-900"
-              icon={faPaperPlane}
-            />
-            <p className="py-3">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Obcaecati id quod quia eum pariatur velit accusantium maiores
-              labore possimus distinctio?
-            </p>
-            <button className="btn btn-xs btn-secondary">Read more</button>
+          <div className="service-card shadow-md hover:bg-secondary hover:text-white duration-500 rounded-lg py-5 px-2">
+            <div className="w-32 mx-auto p-4 bg-base-100 rounded-full">
+              <img className="w-32 mx-auto p-5 " src={publisher} alt="" />
+            </div>
+            <p className="py-3 mb-3">Publisher</p>
+            <a href="publisher.masterkey.digital/bn/access">
+              <button className="btn btn-sm service-btn">
+                Monetize Traffic
+              </button>
+            </a>
           </div>
-          <div className="shadow-xl rounded-lg py-5 px-2">
-            <FontAwesomeIcon
-              className="rounded-full text- p-8 text-6xl bg-base-100 text-blue-900"
-              icon={faUser}
-            />
-            <p className="py-3">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Obcaecati id quod quia eum pariatur velit accusantium maiores
-              labore possimus distinctio?
-            </p>
-            <button className="btn btn-xs btn-secondary">Read more</button>
+          <div className="service-card shadow-md hover:bg-secondary hover:text-white duration-500 rounded-lg py-5 px-2">
+            <div className="w-32 mx-auto p-4 bg-base-100 rounded-full">
+              <img className="w-32 mx-auto p-5 " src={influencer} alt="" />
+            </div>
+            <p className="py-3 mb-3">Influencer</p>
+            <a href="Influencer.masterkey.digital/bn/access">
+              <button className="btn btn-sm service-btn ">Start Earning</button>
+            </a>
           </div>
         </div>
       </div>
