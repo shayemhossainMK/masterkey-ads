@@ -1,9 +1,8 @@
-import { faVoicemail } from "@fortawesome/free-solid-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import facebook from "../../img/social-media/facebook-icon.png";
 import instra from "../../img/social-media/instagram-icon.png";
 import linkedin from "../../img/social-media/linkedin-icon.png";
+import logoOne from "../../img/logo/logoOne.png";
 
 const Footer = () => {
   return (
@@ -26,7 +25,7 @@ const Footer = () => {
               </a>
             </div>
             <br />
-            <h5 className="text-2xl font-bold">LOGO</h5>
+            <img className="w-32" src={logoOne} alt="" />
           </div>
           <div className="mx-auto">
             <p className="text-secondary text-xl mb-3">Links</p>

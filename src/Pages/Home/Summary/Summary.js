@@ -3,6 +3,9 @@ import React from "react";
 const Summary = () => {
   return (
     <div className="bg-secondary">
+      <div className="text-center pt-7 text-base-100">
+        <h2 className="text-2xl">MASTERKEY DIGITAL IN NUMBERS</h2>
+      </div>
       <div className="px-5 md:px-20 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 text-center">
           <div class="avatar mx-auto">

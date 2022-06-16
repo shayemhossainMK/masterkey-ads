@@ -1,12 +1,15 @@
 import React from "react";
 import CustomLink from "../CustomLink";
 import "./Navbar.css";
+import logo from "../../img/logo/logoOne.png";
 
 const Navbar = () => {
   return (
-    <div className="nav-font md:px-20 px-1 md:py-10 py-5 bg-gray-100">
+    <div className="nav-font md:px-20 px-1 md:py-7 py-5 bg-gray-100">
       <div className="flex justify-between px-5">
-        <a class="text-2xl font-bold hidden md:block uppercase">Logo</a>
+        <a class="text-2xl font-bold hidden md:block uppercase">
+          <img className="w-28" src={logo} alt="" />
+        </a>
         <p className="font-semibold hidden md:block">
           <span className=" text-green-500">BN</span> / EN
         </p>

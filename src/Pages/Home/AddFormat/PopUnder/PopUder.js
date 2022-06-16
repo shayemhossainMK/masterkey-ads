@@ -19,8 +19,11 @@ const PopUder = () => {
               hampered much.
             </p>
             <p className="mt-10 md:mt-16 text-secondary">
-              <a href="">Learn more</a>{" "}
-              <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+              <a href="masterkey.digital/bn/format/ppur">Learn more</a>
+              <FontAwesomeIcon
+                className="ml-2"
+                icon={faArrowUpRightFromSquare}
+              />
             </p>
           </div>
         </div>

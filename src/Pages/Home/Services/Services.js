@@ -9,10 +9,10 @@ const Services = () => {
     <div className="bg-gray-100">
       <div className="px-5 md:px-20 pb-10">
         <div className="text-center">
-          <p className="font-bold text-secondary text-3xl">
+          <p className="font-bold text-secondary text-2xl">
             AVAILABLE FOR EVERYONE
           </p>
-          <p className="mt-2">
+          <p className="mt-2 text-xs">
             Monetize your online presence and earn more. <br />
             <span>Join us now</span>
           </p>

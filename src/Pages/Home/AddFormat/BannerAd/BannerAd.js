@@ -19,8 +19,11 @@ const BannerAd = () => {
               for visibility.
             </p>
             <p className="mt-10 md:mt-20 text-secondary">
-              <a href="">Learn more</a>{" "}
-              <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
+              <a href="masterkey.digital/bn/format/banner">Learn more</a>
+              <FontAwesomeIcon
+                className="ml-2"
+                icon={faArrowUpRightFromSquare}
+              />
             </p>
           </div>
         </div>
