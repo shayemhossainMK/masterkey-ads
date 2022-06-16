@@ -8,7 +8,7 @@ const Navbar = () => {
       <div className="flex justify-between px-5">
         <a class="text-2xl font-bold hidden md:block uppercase">Logo</a>
         <p className="font-semibold hidden md:block">
-          <span className=" text-green-500">BN</span> / E
+          <span className=" text-green-500">BN</span> / EN
         </p>
       </div>
       <div class="navbar">
