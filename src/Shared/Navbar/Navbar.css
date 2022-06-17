@@ -1,7 +1,7 @@
-/* font-family: 'PT Sans', sans-serif;
-font-family: 'Source Sans Pro', sans-serif; */
-@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&family=Source+Sans+Pro:wght@400;600&display=swap");
+/* font-family: 'PT Sans', sans-serif; */
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap");
 
 .nav-font {
   font-family: "PT Sans", sans-serif;
+  font-weight: bold;
 }

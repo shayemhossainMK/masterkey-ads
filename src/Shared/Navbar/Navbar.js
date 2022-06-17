@@ -63,7 +63,7 @@ const Navbar = () => {
           </div>
         </div>
         <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal text-secondary ">
+          <ul class="menu menu-horizontal text-secondary">
             {/* this is for big screen */}
             <li>
               <CustomLinkTwo to="/">HOME</CustomLinkTwo>
