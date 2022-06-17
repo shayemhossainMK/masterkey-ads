@@ -8,6 +8,6 @@
   transition: all ease-in-out 0.3s;
 }
 .service-btn:hover {
-  background-color: #ff6f00;
+  background-color: #ed6949;
   transform: scale(0.9);
 }

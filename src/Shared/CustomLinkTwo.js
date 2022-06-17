@@ -1,6 +1,6 @@
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 
-function CustomLink({ children, to, ...props }) {
+function CustomLinkTwo({ children, to, ...props }) {
   let resolved = useResolvedPath(to);
   let match = useMatch({ path: resolved.pathname, end: true });
 
@@ -8,8 +8,7 @@ function CustomLink({ children, to, ...props }) {
     <div>
       <Link
         style={{
-          background: match ? "#ED6949" : "none",
-          color: match ? "white" : "black",
+          color: match ? "#ED6949" : "#65509c",
         }}
         to={to}
         {...props}
@@ -19,4 +18,4 @@ function CustomLink({ children, to, ...props }) {
     </div>
   );
 }
-export default CustomLink;
+export default CustomLinkTwo;

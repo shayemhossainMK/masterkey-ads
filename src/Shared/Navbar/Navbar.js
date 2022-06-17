@@ -1,7 +1,7 @@
 import React from "react";
-import CustomLink from "../CustomLink";
 import "./Navbar.css";
 import logo from "../../img/logo/logoOne.png";
+import CustomLinkTwo from "../CustomLinkTwo";
 
 const Navbar = () => {
   return (
@@ -65,26 +65,26 @@ const Navbar = () => {
         <div class="navbar-center hidden lg:flex">
           <ul class="menu menu-horizontal text-secondary ">
             {/* this is for big screen */}
-            <li className="hover:text-primary">
-              <a className="text-primary">HOME</a>
+            <li>
+              <CustomLinkTwo to="/">HOME</CustomLinkTwo>
             </li>
             <li>
-              <a>ADVERTISERS</a>
+              <CustomLinkTwo to="/advertisers">ADVERTISERS</CustomLinkTwo>
             </li>
             <li>
-              <a>PUBLISHERS</a>
+              <CustomLinkTwo to="/publishers">PUBLISHERS</CustomLinkTwo>
             </li>
             <li>
-              <a>INFLUENCERS</a>
+              <CustomLinkTwo to="/influancers">INFLUENCERS</CustomLinkTwo>
             </li>
             <li>
-              <a>AD FORMATS</a>
+              <CustomLinkTwo to="/adformats">AD FORMATS</CustomLinkTwo>
             </li>
             <li>
-              <a>BLOG</a>
+              <CustomLinkTwo to="/blogs">BLOG</CustomLinkTwo>
             </li>
             <li>
-              <a>CONTACT US </a>
+              <CustomLinkTwo to="/contact">CONTACT US </CustomLinkTwo>
             </li>
           </ul>
         </div>
