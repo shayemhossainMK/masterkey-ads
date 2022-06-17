@@ -23,7 +23,7 @@ const Banner = () => {
                 than 100 GEOs and can offer different ad formats.
               </p>
 
-              <button class="btn btn-primary  rounded-full text-white mb-10 hover:bg-transparent hover:text-secondary duration-300">
+              <button class="btn btn-primary btn-sm  rounded-full text-white mb-10 hover:bg-transparent hover:text-secondary duration-300">
                 Explore More
                 <FontAwesomeIcon className="ml-1" icon={faArrowRight} />
               </button>

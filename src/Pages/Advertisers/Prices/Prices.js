@@ -1,0 +1,55 @@
+import React from "react";
+
+const Prices = () => {
+  return (
+    <div>
+      <div className="px-2 md:px-40 py-10">
+        <div>
+          <h1 className="text-secondary text-2xl font-bold text-center uppercase">
+            Prices
+          </h1>
+        </div>
+
+        <div className="py-10">
+          <div class="overflow-x-auto">
+            <table class="table w-full">
+              <thead>
+                <tr>
+                  <th className="text-xl">Country</th>
+                  <th className="text-lg">Impressions</th>
+                  <th className="text-lg">CPC</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr className="hover">
+                  <td>Bangladesh</td>
+                  <td>15002322</td>
+                  <td>$0.001</td>
+                </tr>
+
+                <tr className="hover">
+                  <td>Nepal</td>
+                  <td>7799922</td>
+                  <td>$0.001</td>
+                </tr>
+
+                <tr className="hover">
+                  <td>Srilanka</td>
+                  <td>9023023</td>
+                  <td>$0.001</td>
+                </tr>
+                <tr className="hover">
+                  <td>USA</td>
+                  <td>88973895</td>
+                  <td>$0.006</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Prices;

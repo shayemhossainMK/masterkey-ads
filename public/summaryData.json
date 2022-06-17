@@ -2,19 +2,19 @@
     {
         "id": "001",
        "text":"Daily Impressions",
-        "number": "1",
+        "number": "1000000",
         "duration": "3"
     },
     {
         "id": "002",
-        "text":"Paid",
-        "number": "500",
-        "duration": "4"
+        "text":"Active Publishers",
+        "number": "8000",
+        "duration": "3"
     },
     {
         "id": "003",
-        "text":"Global Publishers",
-        "number": "8",
-        "duration": "4"
+        "text":"Targeting Options",
+        "number": "20",
+        "duration": "3"
     }
 ]
