@@ -9,6 +9,8 @@ import daraz from "../../../img/partners/daraz-logo.png";
 import bkash from "../../../img/partners/bkash.png";
 import citybank from "../../../img/partners/citybank.png";
 import nagad from "../../../img/partners/nagad.svg";
+import walton from "../../../img/partners/walton.png";
+import samsung from "../../../img/partners/samsung.jpeg";
 
 export default class OurPartners extends Component {
   constructor(props) {
@@ -68,22 +70,22 @@ export default class OurPartners extends Component {
               <div>
                 <div className="shadow-2xl bg-base-100 w-48 px-10 py-7  rounded-lg">
                   <img className="w-28" src={nagad} alt="" />
-                  <p className="mt-5 text-center">Nagad</p>
+                  <p className="mt-4 text-center">Nagad</p>
                 </div>
               </div>
             </div>
             <div key={5} className="mx-2 md:mx-10 pr-5 mr-5">
               <div>
-                <div className="shadow-2xl bg-base-100 w-32 px-10 py-7 rounded-lg">
-                  <img className="w-10" src={brand1} alt="" />
-                  <p className="mt-5">Daraz</p>
+                <div className="shadow-2xl bg-base-100 w-48 px-10 py-3 rounded-lg">
+                  <img className="w-28 mx-auto" src={walton} alt="" />
+                  <p className="mt-3 text-center">Walton</p>
                 </div>
               </div>
             </div>
             <div key={6} className="mx-2 md:mx-10 pr-5 mr-5">
-              <div className="shadow-2xl bg-base-100 w-32 px-10 py-7 mb-20  rounded-lg">
-                <img className="w-10" src={brand1} alt="" />
-                <p className="mt-5">Daraz</p>
+              <div className="shadow-2xl bg-base-100 w-48 px-10 py-5 mb-20  rounded-lg">
+                <img className="w-28 mx-auto" src={samsung} alt="" />
+                <p className="mt-5 text-center">Samsung</p>
               </div>
             </div>
           </Slider>

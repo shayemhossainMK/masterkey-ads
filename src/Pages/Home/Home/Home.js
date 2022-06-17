@@ -6,6 +6,7 @@ import "./Home.css";
 import Summary from "../Summary/Summary";
 import Reviews from "../Reviews/Reviews";
 import OurPartners from "../OurPartners/OurPartners";
+import OurPartnersTwo from "../OurPartners/OurPartnersTwo";
 
 const Home = () => {
   return (
@@ -15,7 +16,14 @@ const Home = () => {
       <AddFormat></AddFormat>
       <Summary></Summary>
       <Reviews></Reviews>
-      <OurPartners></OurPartners>
+      <div>
+        <div className="hidden md:block">
+          <OurPartners></OurPartners>
+        </div>
+        <div className="block md:hidden">
+          <OurPartnersTwo></OurPartnersTwo>
+        </div>
+      </div>
     </div>
   );
 };

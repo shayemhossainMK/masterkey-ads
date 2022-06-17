@@ -9,8 +9,10 @@ const Footer = () => {
     <div className="bg-gray-100">
       <div className="py-10 shadow-2xl ">
         <div className="grid grid-cols-2 md:grid-cols-4">
-          <div className="md:mx-auto pl-2 md:pl-0">
-            <p className="text-secondary text-xl mb-3">We are social </p>
+          <div className="md:mx-auto pl-4 md:pl-0">
+            <p className="text-secondary text-xl mb-3 font-bold">
+              We are social{" "}
+            </p>
             <p className="">FOLLOW US</p>
             <br />
             <div className="flex">
@@ -28,61 +30,63 @@ const Footer = () => {
             <img className="w-32" src={logoOne} alt="" />
           </div>
           <div className="mx-auto">
-            <p className="text-secondary text-xl mb-3">Links</p>
-            <a className="font-bold" href="">
+            <p className="text-secondary text-xl mb-3 font-bold">Links</p>
+            <a className="font-semibold" href="">
               ADVERTISERS
             </a>
             <br />
             <br />
-            <a className="font-bold" href="">
+            <a className="font-semibold" href="">
               PUBLISHERS
             </a>
             <br />
             <br />
-            <a className="font-bold" href="">
+            <a className="font-semibold" href="">
               INFLUENCERS
             </a>
             <br />
             <br />
-            <a className="font-bold mt-2" href="">
+            <a className="font-semibold mt-2" href="">
               AD FORMATS
             </a>
           </div>
-          <div className="mx-auto mt-10 md:mt-0">
-            <p className="text-secondary text-xl mb-3">Documentation</p>
-            <a className="font-bold" href="">
+          <div className="mx-auto mt-10 md:mt-0 pl-3">
+            <p className="text-secondary text-xl mb-3 font-bold">
+              Documentation
+            </p>
+            <a className="font-semibold" href="">
               TERMS & CONDITIONS
             </a>
             <br />
             <br />
-            <a className="font-bold" href="">
+            <a className="font-semibold" href="">
               PRIVACY POLICY{" "}
             </a>
             <br />
             <br />
-            <a className="font-bold" href="">
+            <a className="font-semibold" href="">
               CANCELLATION POLICY
             </a>
             <br />
             <br />
-            <a className="font-bold" href="">
+            <a className="font-semibold" href="">
               BLOG
             </a>
           </div>
           <div className="mx-auto mt-10 md:mt-0">
-            <p className="text-secondary text-xl mb-3">Support</p>
+            <p className="text-secondary text-xl mb-3 font-bold">Support</p>
 
-            <a className="mb-2 font-bold" href="">
+            <a className="mb-2 font-semibold" href="">
               FAQ
             </a>
             <br />
             <br />
-            <a className="mb-2 font-bold" href="">
+            <a className="mb-2 font-semibold" href="">
               MEDIA KIT
             </a>
             <br />
             <br />
-            <a className="font-bold" href="">
+            <a className="font-semibold" href="">
               CONTACT US
             </a>
             <br />
