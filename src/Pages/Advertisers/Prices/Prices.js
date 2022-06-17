@@ -3,7 +3,7 @@ import React from "react";
 const Prices = () => {
   return (
     <div>
-      <div className="px-2 md:px-40 py-10">
+      <div className="px-2 md:px-40 pt-10">
         <div>
           <h1 className="text-secondary text-2xl font-bold text-center uppercase">
             Prices
@@ -15,9 +15,9 @@ const Prices = () => {
             <table class="table w-full">
               <thead>
                 <tr>
-                  <th className="text-xl">Country</th>
-                  <th className="text-lg">Impressions</th>
-                  <th className="text-lg">CPC</th>
+                  <th className="md:text-xl text-gray-600">Country</th>
+                  <th className="md:text-lg text-gray-600">Impressions</th>
+                  <th className="md:text-lg text-gray-600">CPC</th>
                 </tr>
               </thead>
               <tbody>
