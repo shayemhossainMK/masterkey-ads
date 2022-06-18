@@ -13,19 +13,19 @@ const PublishersPaymentMethods = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4">
         <div className="w-52 mx-auto">
-          <div className="py-4 shadow-xl rounded-md flex justify-center">
+          <div className="py-4 shadow-xl rounded-md flex justify-center hover:bg-gray-300 duration-500">
             <img className="w-32" src={bkash} alt="" />
           </div>
           <p className="text-center mt-5">bKash</p>
         </div>
         <div className="w-52 mx-auto ">
-          <div className=" shadow-xl rounded-md py-4 flex justify-center">
+          <div className=" shadow-xl rounded-md py-4 flex justify-center hover:bg-gray-300 duration-500">
             <img className="w-32" src={nagad} alt="" />
           </div>
           <p className="text-center mt-5">Nagad</p>
         </div>
         <div className="w-52 mx-auto">
-          <div className=" py-11 shadow-xl rounded-md">
+          <div className=" py-11 shadow-xl rounded-md hover:bg-gray-300 duration-500">
             <h2 className="text-primary text-center font-bold text-xl">
               BANK TRANSFER
             </h2>
@@ -33,7 +33,7 @@ const PublishersPaymentMethods = () => {
           <p className="text-center mt-5">Bank Transfer</p>
         </div>
         <div className="w-52 mx-auto">
-          <div className="py-9 flex justify-center shadow-xl rounded-md">
+          <div className="py-9 flex justify-center shadow-xl rounded-md hover:bg-gray-300 duration-500">
             <img className="w-32" src={visa} alt="" />
           </div>
           <p className="text-center mt-5">Visa</p>

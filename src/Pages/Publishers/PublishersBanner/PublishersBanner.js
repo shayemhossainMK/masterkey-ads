@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImg from "../../../img/banner.png";
+import bannerImg from "../../../img/publisher.webp";
 
 const PublishersBanner = () => {
   return (
@@ -8,7 +8,10 @@ const PublishersBanner = () => {
         <div className="md:px-20 px-5">
           <div class="hero min-h-screen">
             <div class="hero-content flex-col lg:flex-row-reverse">
-              <img className="w-72 order-2 md:order-1" src={bannerImg} />
+              <img
+                className="w-96 rounded-xl shadow-md order-2 md:order-1"
+                src={bannerImg}
+              />
               <div className="order-1 md:order-2">
                 <h1 class="text-3xl font-bold banner text-secondary">
                   MONETIZE YOUR <br /> TRAFFIC
@@ -22,7 +25,7 @@ const PublishersBanner = () => {
                 </p>
 
                 <button class="btn btn-secondary btn-sm  rounded-full text-white mb-10 hover:bg-transparent hover:text-secondary duration-300">
-                  Explore More
+                  Monetize Now
                 </button>
               </div>
             </div>

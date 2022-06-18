@@ -2,13 +2,16 @@ import React from "react";
 import "./Navbar.css";
 import logo from "../../img/logo/logoOne.png";
 import CustomLinkTwo from "../CustomLinkTwo";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
     <div className="nav-font md:px-20 px-1 md:py-7 py-5 bg-gray-100">
       <div className="flex justify-between px-5">
         <a class="text-2xl font-bold hidden md:block uppercase">
-          <img className="w-28" src={logo} alt="" />
+          <Link to="/">
+            <img className="w-28" src={logo} alt="" />
+          </Link>
         </a>
         <p className="font-semibold hidden md:block">
           <span className=" text-green-500">BN</span> / EN
@@ -39,25 +42,25 @@ const Navbar = () => {
             >
               {/* this is for small screen */}
               <li>
-                <a>HOME</a>
+                <CustomLinkTwo to="/">HOME</CustomLinkTwo>
               </li>
               <li>
-                <a>ADVERTISERS</a>
+                <CustomLinkTwo to="/advertisers">ADVERTISERS</CustomLinkTwo>
               </li>
               <li>
-                <a>PUBLISHERS</a>
+                <CustomLinkTwo to="/publishers">PUBLISHERS</CustomLinkTwo>
               </li>
               <li>
-                <a>INFLUENCERS</a>
+                <CustomLinkTwo to="/influancers">INFLUENCERS</CustomLinkTwo>
               </li>
               <li>
-                <a>AD FORMATS</a>
+                <CustomLinkTwo to="/adformats">AD FORMATS</CustomLinkTwo>
               </li>
               <li>
-                <a>BLOG</a>
+                <CustomLinkTwo to="/blogs">BLOG</CustomLinkTwo>
               </li>
               <li>
-                <a>CONTACT US </a>
+                <CustomLinkTwo to="/contact">CONTACT US </CustomLinkTwo>
               </li>
             </ul>
           </div>
