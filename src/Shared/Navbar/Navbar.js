@@ -3,6 +3,7 @@ import "./Navbar.css";
 import logo from "../../img/logo/logoOne.png";
 import CustomLinkTwo from "../CustomLinkTwo";
 import { Link } from "react-router-dom";
+import CustomLink from "../CustomLink";
 
 const Navbar = () => {
   return (
@@ -93,12 +94,16 @@ const Navbar = () => {
         </div>
         <div class="navbar-end">
           <div className="flex items-center bg-base-100 shadow-xl md:rounded-3xl rounded-xl px-5 md:px-7 py-2 md:py-2">
-            <p className="font-semibold shadow-md px-3 hover:bg-gray-200 cursor-pointer py-1 rounded-full">
-              <Link to="/login"> Login</Link>
-            </p>
-            <p className="shadow-md ml-3 px-4 md:px-7 md:py-1 md:rounded-3xl rounded-xl text-white btn-primary">
-              <Link to="/signup">Signup</Link>
-            </p>
+            <Link to="/login">
+              <p className="font-semibold shadow-md px-3 hover:bg-gray-200 cursor-pointer py-1 rounded-full">
+                Login
+              </p>
+            </Link>
+            <Link to="signup">
+              <p className="shadow-md ml-3 px-4 md:px-7 md:py-1 md:rounded-3xl rounded-xl text-white btn-primary">
+                Signup
+              </p>
+            </Link>
           </div>
         </div>
       </div>

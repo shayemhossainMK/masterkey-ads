@@ -50,9 +50,9 @@ const KeyFeatures = () => {
           </h1>
           <p>
             Numerous ad formats to choose from.
-            <p className="mt-2 text-blue-900">
+            <span className="mt-2 text-blue-900">
               <Link to="/">Learn more</Link>
-            </p>
+            </span>
           </p>
         </div>
         <div className="text-center md:text-left">
