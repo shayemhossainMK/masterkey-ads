@@ -21,7 +21,7 @@ const PublisherReviews = () => {
                 <img src="https://api.lorem.space/image/face?hash=92310" />
               </div>
             </div>
-            <p className="ml-5">Kala Jahangir</p>
+            <p className="ml-5">Randall Fleming</p>
           </div>
         </div>
         <div className="w-80 py-10 bg-base-100 rounded-3xl shadow-xl mx-auto">
@@ -36,7 +36,7 @@ const PublisherReviews = () => {
                 <img src="https://api.lorem.space/image/face?hash=92310" />
               </div>
             </div>
-            <p className="ml-5">Kala Jahangir</p>
+            <p className="ml-5">Drogo Holland</p>
           </div>
         </div>
         <div className="w-80 py-10 bg-base-100 rounded-3xl shadow-xl mx-auto">
@@ -51,7 +51,7 @@ const PublisherReviews = () => {
                 <img src="https://api.lorem.space/image/face?hash=92310" />
               </div>
             </div>
-            <p className="ml-5">Kala Jahangir</p>
+            <p className="ml-5">Clifford Wilcher</p>
           </div>
         </div>
       </div>

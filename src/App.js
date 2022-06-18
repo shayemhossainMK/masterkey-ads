@@ -17,6 +17,8 @@ import Footer from "./Shared/Footer/Footer";
 import Navbar from "./Shared/Navbar/Navbar";
 import NativeContainer from "./Pages/AdFormatsMain/NativeContainer/NativeContainer";
 import SkimContainer from "./Pages/AdFormatsMain/SkimContainer/SkimContainer";
+import Login from "./Shared/Login/Login";
+import Signup from "./Shared/Signup/Signup";
 
 function App() {
   return (
@@ -61,6 +63,8 @@ function App() {
         ></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>
+        <Route path="/login" element={<Login></Login>}></Route>
+        <Route path="/signup" element={<Signup></Signup>}></Route>
       </Routes>
       <Footer></Footer>
     </div>
