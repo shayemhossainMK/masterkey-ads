@@ -54,7 +54,7 @@ const Navbar = () => {
                 <CustomLinkTwo to="/influancers">INFLUENCERS</CustomLinkTwo>
               </li>
               <li>
-                <CustomLinkTwo to="/adformats">AD FORMATS</CustomLinkTwo>
+                <CustomLinkTwo to="/adformatsmain">AD FORMATS</CustomLinkTwo>
               </li>
               <li>
                 <CustomLinkTwo to="/blogs">BLOG</CustomLinkTwo>
@@ -81,7 +81,7 @@ const Navbar = () => {
               <CustomLinkTwo to="/influancers">INFLUENCERS</CustomLinkTwo>
             </li>
             <li>
-              <CustomLinkTwo to="/adformats">AD FORMATS</CustomLinkTwo>
+              <CustomLinkTwo to="/addformatsmain">AD FORMATS</CustomLinkTwo>
             </li>
             <li>
               <CustomLinkTwo to="/blogs">BLOG</CustomLinkTwo>
