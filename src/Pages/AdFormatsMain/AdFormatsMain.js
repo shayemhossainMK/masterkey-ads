@@ -24,7 +24,7 @@ const AdFormatsMain = () => {
             </Link>
           </div>
           <div className="w-56 mx-auto bg-base-100  rounded-xl shadow-xl hover:bg-red-100 duration-500 hover:scale-110">
-            <Link to="/">
+            <Link to="/bannercontainer">
               <img className="w-56 h-28 rounded-xl" src={bannerAd} alt="" />
               <h4 className="text-center text-primary font-bold mt-3 pb-3">
                 Banner Ad
@@ -32,7 +32,7 @@ const AdFormatsMain = () => {
             </Link>
           </div>
           <div className="w-56 mx-auto bg-base-100  rounded-xl shadow-xl hover:bg-green-100 duration-500 hover:scale-110">
-            <Link to="/">
+            <Link to="/nativecontainer">
               <img className="w-56 rounded-xl" src={native} alt="" />
               <h4 className="text-center text-primary font-bold mt-3 pb-3">
                 Native
@@ -40,10 +40,10 @@ const AdFormatsMain = () => {
             </Link>
           </div>
           <div className="w-56 mx-auto bg-base-100  rounded-xl shadow-xl hover:bg-blue-100 duration-500 hover:scale-110">
-            <Link to="/">
+            <Link to="/skimcontainer">
               <img className="w-56 rounded-xl" src={skim} alt="" />
               <h4 className="text-center text-primary font-bold mt-3 pb-3">
-                Pop-under
+                Skim
               </h4>
             </Link>
           </div>

@@ -9,24 +9,24 @@ const InfluencersChooseUs = () => {
             WHY INFULANCERS CHOOSE US?
           </h1>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-x-8 md:gap-x-32 gap-y-10 md:gap-y-20">
-          <div className="">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-x-8 md:gap-x-32 gap-y-10 md:gap-y-20">
+          <div className="text-center">
             <h1 className="text-secondary text-xl mb-3 font-semibold">
               Find Deals
             </h1>
             <p>Lots of advertisers and brands to choose from</p>
           </div>
-          <div className="">
+          <div className="text-center">
             <h1 className="text-secondary text-xl mb-3 font-semibold">
               Convert in Profit Link
             </h1>
             <p>Convert to affiliate link</p>
           </div>
-          <div className="">
+          <div className="text-center">
             <h1 className="text-secondary text-xl mb-3 font-semibold">Share</h1>
             <p>Share your links to groups and messages.</p>
           </div>
-          <div className="">
+          <div className="text-center">
             <h1 className="text-secondary text-xl mb-3 font-semibold">
               Earn Profit
             </h1>
@@ -35,7 +35,7 @@ const InfluencersChooseUs = () => {
               financial services
             </p>
           </div>
-          <div className="">
+          <div className="text-center">
             <h1 className="text-secondary text-xl mb-3 font-semibold">
               Earn Money From Home
             </h1>
@@ -46,7 +46,7 @@ const InfluencersChooseUs = () => {
               time.
             </p>
           </div>
-          <div className="">
+          <div className="text-center">
             <h1 className="text-secondary text-xl mb-3 font-semibold">
               Easy payment
             </h1>

@@ -8,7 +8,14 @@ const PopUnderContainer = () => {
     <div className="bg-gray-100 py-10">
       <div className="px-3 md:px-20">
         <PopUder></PopUder>
-        <WhyAds></WhyAds>
+        <div className="py-10">
+          <div>
+            <h1 className="text-2xl text-primary font-bold text-center pb-10 md:pb-10">
+              WHY POP-UNDER ADS?
+            </h1>
+          </div>
+          <WhyAds></WhyAds>
+        </div>
         <AdPrice></AdPrice>
       </div>
     </div>

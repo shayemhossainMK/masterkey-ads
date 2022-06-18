@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
 import AdFormatsMain from "./Pages/AdFormatsMain/AdFormatsMain";
+import BannerContainer from "./Pages/AdFormatsMain/BannerContainer/BannerContainer";
 import PopUnderContainer from "./Pages/AdFormatsMain/PopUnderContainer.js/PopUnderContainer";
 import Advertisers from "./Pages/Advertisers/Advertisers";
 import Blogs from "./Pages/Blogs/Blogs";
@@ -14,6 +15,8 @@ import Influencers from "./Pages/Influencers/Influencers";
 import Publishers from "./Pages/Publishers/Publishers";
 import Footer from "./Shared/Footer/Footer";
 import Navbar from "./Shared/Navbar/Navbar";
+import NativeContainer from "./Pages/AdFormatsMain/NativeContainer/NativeContainer";
+import SkimContainer from "./Pages/AdFormatsMain/SkimContainer/SkimContainer";
 
 function App() {
   return (
@@ -43,6 +46,18 @@ function App() {
         <Route
           path="/popundercontainer"
           element={<PopUnderContainer></PopUnderContainer>}
+        ></Route>
+        <Route
+          path="/bannercontainer"
+          element={<BannerContainer></BannerContainer>}
+        ></Route>
+        <Route
+          path="/nativecontainer"
+          element={<NativeContainer></NativeContainer>}
+        ></Route>
+        <Route
+          path="/skimcontainer"
+          element={<SkimContainer></SkimContainer>}
         ></Route>
         <Route path="/blogs" element={<Blogs></Blogs>}></Route>
         <Route path="/contact" element={<Contact></Contact>}></Route>

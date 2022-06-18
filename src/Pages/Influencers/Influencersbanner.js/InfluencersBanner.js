@@ -1,5 +1,5 @@
 import React from "react";
-import bannerImg from "../../../img/publisher.webp";
+import bannerImg from "../../../img/influencer.jpg";
 
 const InfluencersBanner = () => {
   return (

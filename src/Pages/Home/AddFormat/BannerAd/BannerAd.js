@@ -13,17 +13,18 @@ const BannerAd = () => {
             class="md:max-w-2xl w-96 rounded-md shadow-2xl object-fill "
           />
           <div className="md:px-16">
-            <h4 className="text-primary text-2xl mt-7 md:mt-2">BANNER AD</h4>
+            <h4 className="text-primary text-2xl mt-7 mb-2 md:mt-2">
+              BANNER AD
+            </h4>
+            <p>One of the most effective ways to run campaigns.</p>
             <p className="my-5 text-xl">
-              Choose between the available banner formats. Highly effective ad
-              for visibility.
+              The banner ads is also a classic ad format that includes a
+              visually driven placeholders.
             </p>
-            <p className="mt-10 md:mt-20 text-secondary">
-              <a href="masterkey.digital/bn/format/banner">Learn more</a>
-              <FontAwesomeIcon
-                className="ml-2"
-                icon={faArrowUpRightFromSquare}
-              />
+            <p className="mt-10 text-secondary">
+              <button className="btn btn-primary rounded-full text-white btn-sm px-5">
+                Start Advertising
+              </button>
             </p>
           </div>
         </div>

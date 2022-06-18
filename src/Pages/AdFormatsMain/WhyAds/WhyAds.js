@@ -13,12 +13,7 @@ import photo4 from "../../../img/why-add/photo4.png";
 
 const WhyAds = () => {
   return (
-    <div className="py-10 px-2 md:px-20">
-      <div>
-        <h1 className="text-2xl text-primary font-bold text-center pb-10 md:pb-20">
-          WHY POP-UNDER ADS?
-        </h1>
-      </div>
+    <div className="px-2 md:px-20">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-5 justify-center">
         <div className="  md:border-r-2 md:border-gray-600 md:border-dashed">
           <div className="mx-auto px-5">
