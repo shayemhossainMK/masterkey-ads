@@ -5,7 +5,7 @@ import visa from "../../../img/paymentMethods/visa.png";
 
 const PublishersPaymentMethods = () => {
   return (
-    <div>
+    <div className="md:px-10">
       <div className="pt-10">
         <h1 className="text-secondary text-2xl mb-14 text-center font-bold">
           PUBLISHER PAYMENT METHODS

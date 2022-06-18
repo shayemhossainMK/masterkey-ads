@@ -1,5 +1,6 @@
 import React from "react";
 import EasyRegister from "./EasyRegister/EasyRegister";
+import PublisherReviews from "./PublisherReviews/PublisherReviews";
 import PublishersBanner from "./PublishersBanner/PublishersBanner";
 import PublishersChooseUs from "./PublishersChooseUs/PublishersChooseUs";
 import PublishersPaymentMethods from "./PublishersPaymentMethods/PublishersPaymentMethods";
@@ -11,6 +12,7 @@ const Publishers = () => {
       <EasyRegister></EasyRegister>
       <PublishersChooseUs></PublishersChooseUs>
       <PublishersPaymentMethods></PublishersPaymentMethods>
+      <PublisherReviews></PublisherReviews>
     </div>
   );
 };
