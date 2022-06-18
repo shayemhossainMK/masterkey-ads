@@ -4,11 +4,11 @@ import skim from "../../../../img/skim.jpg";
 const Skim = () => {
   return (
     <div>
-      <div class=" mb-16 bg-gray-100">
-        <div class=" md:flex md:pl-7">
+      <div className=" mb-16 bg-gray-100">
+        <div className=" md:flex md:pl-7">
           <img
             src={skim}
-            class="md:max-w-2xl w-96 rounded-md shadow-2xl object-fill"
+            className="md:max-w-2xl w-96 rounded-md shadow-2xl object-fill"
           />
           <div className="md:px-16">
             <h4 className="text-primary text-2xl mt-7 mb-2 md:mt-2">SKIM</h4>

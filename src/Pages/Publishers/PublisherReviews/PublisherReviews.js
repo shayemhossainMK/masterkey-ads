@@ -16,8 +16,8 @@ const PublisherReviews = () => {
             Masterkey.
           </p>
           <div className="flex px-5 items-center">
-            <div class="avatar">
-              <div class="w-14 rounded-full">
+            <div className="avatar">
+              <div className="w-14 rounded-full">
                 <img src="https://api.lorem.space/image/face?hash=92310" />
               </div>
             </div>
@@ -31,8 +31,8 @@ const PublisherReviews = () => {
             Masterkey.
           </p>
           <div className="flex px-5 items-center">
-            <div class="avatar">
-              <div class="w-14 rounded-full">
+            <div className="avatar">
+              <div className="w-14 rounded-full">
                 <img src="https://api.lorem.space/image/face?hash=92310" />
               </div>
             </div>
@@ -46,8 +46,8 @@ const PublisherReviews = () => {
             Masterkey.
           </p>
           <div className="flex px-5 items-center">
-            <div class="avatar">
-              <div class="w-14 rounded-full">
+            <div className="avatar">
+              <div className="w-14 rounded-full">
                 <img src="https://api.lorem.space/image/face?hash=92310" />
               </div>
             </div>

@@ -2,12 +2,12 @@ import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_apiKey,
-  authDomain: process.env.REACT_APP_authDomain,
-  projectId: process.env.REACT_APP_projectId,
-  storageBucket: process.env.REACT_APP_storageBucket,
-  messagingSenderId: process.env.REACT_APP_messagingSenderId,
-  appId: process.env.REACT_APP_appId,
+  apiKey: "AIzaSyAB4lVdaNh6GX_ZmAgBaKAP5Ior1tey7Gc",
+  authDomain: "masterkey-ads.firebaseapp.com",
+  projectId: "masterkey-ads",
+  storageBucket: "masterkey-ads.appspot.com",
+  messagingSenderId: "20055801103",
+  appId: "1:20055801103:web:c73080c4874688f62b927a",
 };
 
 // Initialize Firebase

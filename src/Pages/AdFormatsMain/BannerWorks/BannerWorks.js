@@ -15,21 +15,21 @@ const BannerWorks = () => {
         <div className="">
           <img
             src="https://api.lorem.space/image/movie?w=291&h=200"
-            class="max-w-sm rounded-lg mx-auto shadow-2xl"
+            className="max-w-sm rounded-lg mx-auto shadow-2xl"
           />
           <p className="mt-7 text-center">Step 1</p>
         </div>
         <div>
           <img
             src="https://api.lorem.space/image/movie?w=290&h=200"
-            class="max-w-sm rounded-lg mx-auto shadow-2xl"
+            className="max-w-sm rounded-lg mx-auto shadow-2xl"
           />
           <p className="mt-7 text-center">Step 2</p>
         </div>
         <div>
           <img
             src="https://api.lorem.space/image/movie?w=289&h=200"
-            class="max-w-sm rounded-lg mx-auto shadow-2xl"
+            className="max-w-sm rounded-lg mx-auto shadow-2xl"
           />
           <p className="mt-7 text-center">Step 3</p>
         </div>

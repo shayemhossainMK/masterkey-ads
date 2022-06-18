@@ -4,11 +4,11 @@ import native from "../../../../img/native.webp";
 const Native = () => {
   return (
     <div>
-      <div class="mb-16 bg-gray-100">
-        <div class=" md:flex md:pl-5">
+      <div className="mb-16 bg-gray-100">
+        <div className=" md:flex md:pl-5">
           <img
             src={native}
-            class="md:max-w-2xl w-96 rounded-md shadow-2xl object-fill "
+            className="md:max-w-2xl w-96 rounded-md shadow-2xl object-fill "
           />
           <div className="md:px-16">
             <h4 className="text-primary text-2xl mb-2 mt-7 md:mt-2">NATIVE</h4>

@@ -10,20 +10,23 @@ const Contact = () => {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-3">
             <div className="flex justify-center">
-              <form class="form-control">
+              <form className="form-control">
                 <input
                   type="text"
                   placeholder="You/Your org. Name"
-                  class="input w-full max-w-sm bg-gray-100 rounded-3xl"
+                  className="input w-full max-w-sm bg-gray-100 rounded-3xl"
                 />
                 <br />
                 <input
                   type="text"
                   placeholder="Email"
-                  class="input w-full max-w-sm bg-gray-100 rounded-3xl"
+                  className="input w-full max-w-sm bg-gray-100 rounded-3xl"
                 />
-                <label class="label cursor-pointer w-64 mt-3">
-                  <input type="checkbox" class="checkbox checkbox-primary" />
+                <label className="label cursor-pointer w-64 mt-3">
+                  <input
+                    type="checkbox"
+                    className="checkbox checkbox-primary"
+                  />
                   <span>
                     I agree with{" "}
                     <span className="text-primary">privacy & policy</span>

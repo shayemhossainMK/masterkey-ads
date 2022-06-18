@@ -3,12 +3,12 @@ import popUnderImg from "../../../../img/popunder.jpg";
 const PopUder = () => {
   return (
     <div>
-      <div class=" mb-16 bg-gray-100">
+      <div className=" mb-16 bg-gray-100">
         <div className="mt-10  md:mt-20">
-          <div class="md:flex  md:pl-7">
+          <div className="md:flex  md:pl-7">
             <img
               src={popUnderImg}
-              class="md:max-w-2xl w-96 rounded-md shadow-2xl object-fill"
+              className="md:max-w-2xl w-96 rounded-md shadow-2xl object-fill"
             />
             <div className="md:px-16">
               <h4 className="text-primary text-2xl mb-2 mt-7 md:mt-2">

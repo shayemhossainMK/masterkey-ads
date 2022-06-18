@@ -3,43 +3,51 @@ import "./Navbar.css";
 import logo from "../../img/logo/logoOne.png";
 import CustomLinkTwo from "../CustomLinkTwo";
 import { Link } from "react-router-dom";
-import CustomLink from "../CustomLink";
+import { useAuthState } from "react-firebase-hooks/auth";
+import auth from "../../firebase.init";
+import { signOut } from "firebase/auth";
 
 const Navbar = () => {
+  const [user] = useAuthState(auth);
+  console.log(user);
+  const logout = () => {
+    signOut(auth);
+  };
+
   return (
     <div className="nav-font md:px-20 px-1 md:py-7 py-5 bg-gray-100">
       <div className="flex justify-between px-5">
-        <a class="text-2xl font-bold hidden md:block uppercase">
+        <p className="text-2xl font-bold hidden md:block uppercase">
           <Link to="/">
             <img className="w-28" src={logo} alt="" />
           </Link>
-        </a>
+        </p>
         <p className="font-semibold hidden md:block">
           <span className=" text-green-500">BN</span> / EN
         </p>
       </div>
-      <div class="navbar">
-        <div class="navbar-start lg:hidden">
-          <div class="dropdown">
-            <label tabindex="0" class=" lg:hidden">
+      <div className="navbar">
+        <div className="navbar-start lg:hidden">
+          <div className="dropdown">
+            <label tabIndex="0" className=" lg:hidden">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                class="h-5 w-5"
+                className="h-5 w-5"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
-                  stroke-width="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
                   d="M4 6h16M4 12h8m-8 6h16"
                 />
               </svg>
             </label>
             <ul
-              tabindex="0"
-              class="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+              tabIndex="0"
+              className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
               {/* this is for small screen */}
               <li>
@@ -66,8 +74,8 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        <div class="navbar-center hidden lg:flex">
-          <ul class="menu menu-horizontal text-secondary">
+        <div className="navbar-center hidden lg:flex">
+          <ul className="menu menu-horizontal text-secondary">
             {/* this is for big screen */}
             <li>
               <CustomLinkTwo to="/">HOME</CustomLinkTwo>
@@ -92,19 +100,30 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div class="navbar-end">
-          <div className="flex items-center bg-base-100 shadow-xl md:rounded-3xl rounded-xl px-5 md:px-7 py-2 md:py-2">
-            <Link to="/login">
-              <p className="font-semibold shadow-md px-3 hover:bg-gray-200 cursor-pointer py-1 rounded-full">
-                Login
-              </p>
-            </Link>
-            <Link to="signup">
-              <p className="shadow-md ml-3 px-4 md:px-7 md:py-1 md:rounded-3xl rounded-xl text-white btn-primary">
-                Signup
-              </p>
-            </Link>
-          </div>
+        <div className="navbar-end">
+          {user ? (
+            <div className=" bg-base-100 shadow-xl md:rounded-3xl rounded-xl px-5 md:px-5 py-2 md:py-2">
+              <button
+                className="btn btn-primary btn-xs rounded-xl px-3 text-white"
+                onClick={logout}
+              >
+                Logout
+              </button>
+            </div>
+          ) : (
+            <div className="flex items-center bg-base-100 shadow-xl md:rounded-3xl rounded-xl px-5 md:px-7 py-2 md:py-2">
+              <Link to="/login">
+                <p className="font-semibold shadow-md px-3 hover:bg-gray-200 cursor-pointer py-1 rounded-full">
+                  Login
+                </p>
+              </Link>
+              <Link to="signup">
+                <p className="shadow-md ml-3 px-4 md:px-7 md:py-1 md:rounded-3xl rounded-xl text-white btn-primary">
+                  Signup
+                </p>
+              </Link>
+            </div>
+          )}
         </div>
       </div>
     </div>

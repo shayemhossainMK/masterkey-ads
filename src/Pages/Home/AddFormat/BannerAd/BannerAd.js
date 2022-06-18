@@ -6,11 +6,11 @@ import bannerAdd from "../../../../img/bannerAdd.webp";
 const BannerAd = () => {
   return (
     <div>
-      <div class=" mb-16 bg-gray-100">
-        <div class=" md:flex md:pl-10">
+      <div className=" mb-16 bg-gray-100">
+        <div className=" md:flex md:pl-10">
           <img
             src={bannerAdd}
-            class="md:max-w-2xl w-96 rounded-md shadow-2xl object-fill "
+            className="md:max-w-2xl w-96 rounded-md shadow-2xl object-fill "
           />
           <div className="md:px-16">
             <h4 className="text-primary text-2xl mt-7 mb-2 md:mt-2">
