@@ -1,7 +1,7 @@
 import React from "react";
 import bannerImg from "../../../img/publisher.webp";
 
-const PublishersBanner = () => {
+const InfluencersBanner = () => {
   return (
     <div>
       <div className="bg-gray-100 mt-[-5rem]">
@@ -14,18 +14,19 @@ const PublishersBanner = () => {
               />
               <div className="order-1 md:order-2">
                 <h1 class="text-3xl font-bold banner text-secondary">
-                  MONETIZE YOUR <br /> TRAFFIC
+                  MONETIZE YOUR <br /> ONLINE PRESENCE
                 </h1>
 
                 <p class="py-6 md:pr-28">
-                  Masterkey Digital is a global ad network that offers mutually
-                  beneficial cooperation for everyone - webmasters, advertisers,
-                  media buyers, and ad networks. Today we work globally with
-                  more than 100 GEOs and can offer different ad formats.
+                  Monetize your online presence with Masterkey Digital. Get
+                  unlimited earning opportunity with proven result. Thousands of
+                  social influencers have been earning millions each month. Join
+                  the best network platform and earn by utilizing your favorite
+                  social platforms.
                 </p>
 
                 <button class="btn btn-secondary btn-sm  rounded-full text-white mb-10 hover:bg-transparent hover:text-secondary duration-300">
-                  Monetize Now
+                  Start Earning
                 </button>
               </div>
             </div>
@@ -36,4 +37,4 @@ const PublishersBanner = () => {
   );
 };
 
-export default PublishersBanner;
+export default InfluencersBanner;
