@@ -131,16 +131,16 @@ const Signup = () => {
           <div className="mx-auto">
             <button
               onClick={() => signInWithGoogle()}
-              className="btn btn-outline btn-secondary px-5"
+              className="text-white bg-[#4285F4] hover:bg-[#4285F4]/90 focus:ring-4 focus:outline-none focus:ring-[#4285F4]/50 font-medium rounded-lg text-sm px-4 py-2 text-center inline-flex items-center dark:focus:ring-[#4285F4]/55 mr-2 mb-2"
             >
-              <img className="mr-2" src={googleLogo} alt="" />
+              <img className="mr-2 w-7" src={googleLogo} alt="" />
               Continue with Google
             </button>
           </div>
           <div className="mt-3">
             <button
               onClick={() => signInWithFacebook()}
-              className="btn btn-outline btn-secondary"
+              className="text-white bg-[#3b5998] hover:bg-[#3b5998]/90 focus:ring-4 focus:outline-none focus:ring-[#3b5998]/50 font-medium rounded-lg text-sm px-3 py-2 text-center inline-flex items-center dark:focus:ring-[#3b5998]/55 mr-2 mb-2"
             >
               <img className="mr-2 w-7" src={facebookLogo} alt="" />
               Continue with Facebook
