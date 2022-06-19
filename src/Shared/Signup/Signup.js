@@ -70,7 +70,7 @@ const Signup = () => {
             type="name"
             name="name"
             placeholder="Name"
-            className="input input-sm w-full max-w-xs mt-5 bg-gray-100 rounded-full"
+            className="input w-full max-w-xs mt-5 bg-gray-100 rounded-full"
             required
           />{" "}
           <br />
@@ -78,7 +78,7 @@ const Signup = () => {
             type="email"
             name="email"
             placeholder="Email"
-            className="input input-sm w-full max-w-xs mt-5 bg-gray-100 rounded-full"
+            className="input w-full max-w-xs mt-5 bg-gray-100 rounded-full"
             required
           />{" "}
           <br />
@@ -86,14 +86,14 @@ const Signup = () => {
             type="password"
             name="password"
             placeholder="Password"
-            className="input input-sm w-full max-w-xs mt-5 bg-gray-100 rounded-full"
+            className="input w-full max-w-xs mt-5 bg-gray-100 rounded-full"
             required
           />
           <input
             type="password"
             name="cpassword"
             placeholder="Confirm Password"
-            className="input input-sm w-full max-w-xs mt-5 bg-gray-100 rounded-full"
+            className="input w-full max-w-xs mt-5 bg-gray-100 rounded-full"
             required
           />
           <br />
