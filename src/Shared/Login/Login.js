@@ -91,12 +91,12 @@ const Login = () => {
           <br />
           {errorElement}
           <div className="flex items-center mt-4">
-            <label className="w-64 mt-3 flex items-center">
-              <input type="checkbox" className="checkbox checkbox-primary" />
-              <span className="text-xs ml-3">
-                I agree with
-                <span className="text-primary ml-1">privacy & policy</span>
-              </span>
+            <label className="w-64 mt-3 pl-2 flex items-center">
+              <input
+                type="checkbox"
+                className="checkbox checkbox-primary checkbox-sm"
+              />
+              <span className="text-xs ml-2">Keep me logged in</span>
             </label>
             <button
               type="submit"

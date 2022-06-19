@@ -31,7 +31,7 @@ const Signup = () => {
     const agree = e.target.terms.checked;
     console.log(name, email, password, cpassword);
 
-    if (password === cpassword) {
+    if (password === cpassword && agree) {
       createUserWithEmailAndPassword(email, password);
       toast("Email verification send!");
     } else {
@@ -43,7 +43,6 @@ const Signup = () => {
     errorElement = (
       <div>
         <p>
-          Error:
           <span className="text-primary ml-1">
             {error?.message} {googleError?.message}
             {facebookError?.message}
@@ -72,6 +71,7 @@ const Signup = () => {
             name="name"
             placeholder="Name"
             className="input input-sm w-full max-w-xs mt-5 bg-gray-100 rounded-full"
+            required
           />{" "}
           <br />
           <input
@@ -79,6 +79,7 @@ const Signup = () => {
             name="email"
             placeholder="Email"
             className="input input-sm w-full max-w-xs mt-5 bg-gray-100 rounded-full"
+            required
           />{" "}
           <br />
           <input
@@ -86,12 +87,14 @@ const Signup = () => {
             name="password"
             placeholder="Password"
             className="input input-sm w-full max-w-xs mt-5 bg-gray-100 rounded-full"
+            required
           />
           <input
             type="password"
             name="cpassword"
             placeholder="Confirm Password"
             className="input input-sm w-full max-w-xs mt-5 bg-gray-100 rounded-full"
+            required
           />
           <br />
           <div className="flex items-center mt-4">
@@ -101,11 +104,12 @@ const Signup = () => {
                 name="terms"
                 type="checkbox"
                 id="terms"
-                className="checkbox checkbox-primary"
+                required
+                className="checkbox checkbox-sm checkbox-primary"
               />
               <span
                 className={
-                  agree ? "text-xs ml-3 text-green-600" : "text-xs ml-3"
+                  agree ? "text-xs ml-2 text-green-600" : "text-xs ml-2"
                 }
               >
                 I agree with
@@ -113,6 +117,7 @@ const Signup = () => {
               </span>
             </label>
             <button
+              // disabled={!agree}
               type="submit"
               className="btn btn-secondary btn-sm px-3 rounded-full text-white uppercase"
             >
