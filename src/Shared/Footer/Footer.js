@@ -3,6 +3,7 @@ import facebook from "../../img/social-media/facebook-icon.png";
 import instra from "../../img/social-media/instagram-icon.png";
 import linkedin from "../../img/social-media/linkedin-icon.png";
 import logoOne from "../../img/logo/Asset 1.svg";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -31,24 +32,27 @@ const Footer = () => {
           </div>
           <div className="mx-auto">
             <p className="text-secondary text-xl mb-3 font-bold">Links</p>
-            <a className="font-semibold" href="">
+            <Link to="/advertisers" className="font-semibold hover:underline">
               ADVERTISERS
-            </a>
+            </Link>
             <br />
             <br />
-            <a className="font-semibold" href="">
+            <Link to="/publishers" className="font-semibold hover:underline">
               PUBLISHERS
-            </a>
+            </Link>
             <br />
             <br />
-            <a className="font-semibold" href="">
+            <Link to="/influancers" className="font-semibold hover:underline">
               INFLUENCERS
-            </a>
+            </Link>
             <br />
             <br />
-            <a className="font-semibold mt-2" href="">
+            <Link
+              to="/addformatsmain"
+              className="font-semibold hover:underline"
+            >
               AD FORMATS
-            </a>
+            </Link>
           </div>
           <div className="mx-auto mt-10 md:mt-0 pl-3">
             <p className="text-secondary text-xl mb-3 font-bold">
@@ -69,9 +73,9 @@ const Footer = () => {
             </a>
             <br />
             <br />
-            <a className="font-semibold" href="">
-              BLOG
-            </a>
+            <Link to="/blogs" className="font-semibold hover:underline">
+              BLOGS
+            </Link>
           </div>
           <div className="mx-auto mt-10 md:mt-0">
             <p className="text-secondary text-xl mb-3 font-bold">Support</p>
@@ -86,9 +90,9 @@ const Footer = () => {
             </a>
             <br />
             <br />
-            <a className="font-semibold" href="">
+            <Link to="/contact" className="font-semibold hover:underline">
               CONTACT US
-            </a>
+            </Link>
             <br />
             <br />
           </div>
