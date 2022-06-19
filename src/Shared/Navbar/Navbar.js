@@ -1,6 +1,6 @@
 import React from "react";
 import "./Navbar.css";
-import logo from "../../img/logo/logoOne.png";
+import logo from "../../img/logo/Asset 1.svg";
 import CustomLinkTwo from "../CustomLinkTwo";
 import { Link } from "react-router-dom";
 import { useAuthState } from "react-firebase-hooks/auth";
