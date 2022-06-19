@@ -105,7 +105,7 @@ const Signup = () => {
                 type="checkbox"
                 id="terms"
                 required
-                className="checkbox checkbox-sm checkbox-primary"
+                className="checkbox checkbox-sm checkbox-secondary"
               />
               <span
                 className={
