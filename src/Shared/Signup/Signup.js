@@ -4,37 +4,59 @@ import googleLogo from "../../img/google.svg";
 import facebookLogo from "../../img/facebook.png";
 import {
   useCreateUserWithEmailAndPassword,
+  useSignInWithFacebook,
   useSignInWithGoogle,
 } from "react-firebase-hooks/auth";
 import auth from "../../firebase.init";
+import { toast, ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const Signup = () => {
-  const [createUserWithEmailAndPassword, user] =
+  const [agree, setAgree] = useState(false);
+  const [createUserWithEmailAndPassword, user, error] =
     useCreateUserWithEmailAndPassword(auth, { sendEmailVerification: true });
   const [signInWithGoogle, googleUser, googleLoading, googleError] =
     useSignInWithGoogle(auth);
+  const [signInWithFacebook, facebookUser, facebookLoading, facebookError] =
+    useSignInWithFacebook(auth);
   const navigate = useNavigate();
 
-  const handleSignup = async (e) => {
+  const handleSignup = (e) => {
     e.preventDefault();
 
     const name = e.target.name.value;
     const email = e.target.email.value;
     const password = e.target.password.value;
     const cpassword = e.target.cpassword.value;
+    const agree = e.target.terms.checked;
     console.log(name, email, password, cpassword);
 
     if (password === cpassword) {
-      await createUserWithEmailAndPassword(email, password);
+      createUserWithEmailAndPassword(email, password);
+      toast("Email verification send!");
     } else {
-      window.alert("Your password is not matched!");
+      toast.error("Password not matched!");
     }
   };
-  if (user || googleUser) {
+  let errorElement;
+  if (error || googleError || facebookError) {
+    errorElement = (
+      <div>
+        <p>
+          Error:
+          <span className="text-primary ml-1">
+            {error?.message} {googleError?.message}
+            {facebookError?.message}
+          </span>
+        </p>
+      </div>
+    );
+  }
+  if (user || googleUser || facebookUser) {
     navigate("/");
   }
   return (
-    <div className="h-auto pb-10 bg-gray-100">
+    <div className="h-auto py-10 bg-gray-100">
       <div className="w-96 mx-auto px-10 py-10 bg-base-100 shadow-xl rounded-2xl">
         <div className="flex justify-evenly">
           <div className="font-semibold">
@@ -49,27 +71,27 @@ const Signup = () => {
             type="name"
             name="name"
             placeholder="Name"
-            className="input w-full max-w-xs mt-5 bg-gray-100 rounded-full"
+            className="input input-sm w-full max-w-xs mt-5 bg-gray-100 rounded-full"
           />{" "}
           <br />
           <input
             type="email"
             name="email"
             placeholder="Email"
-            className="input w-full max-w-xs mt-5 bg-gray-100 rounded-full"
+            className="input input-sm w-full max-w-xs mt-5 bg-gray-100 rounded-full"
           />{" "}
           <br />
           <input
             type="password"
             name="password"
             placeholder="Password"
-            className="input w-full max-w-xs mt-5 bg-gray-100 rounded-full"
+            className="input input-sm w-full max-w-xs mt-5 bg-gray-100 rounded-full"
           />
           <input
             type="password"
             name="cpassword"
             placeholder="Confirm Password"
-            className="input w-full max-w-xs mt-5 bg-gray-100 rounded-full"
+            className="input input-sm w-full max-w-xs mt-5 bg-gray-100 rounded-full"
           />
           <br />
           <div className="flex items-center mt-4">
@@ -78,9 +100,14 @@ const Signup = () => {
                 onClick={() => setAgree(!agree)}
                 name="terms"
                 type="checkbox"
+                id="terms"
                 className="checkbox checkbox-primary"
               />
-              <span className="text-xs ml-3">
+              <span
+                className={
+                  agree ? "text-xs ml-3 text-green-600" : "text-xs ml-3"
+                }
+              >
                 I agree with
                 <span className="text-primary ml-1">privacy & policy</span>
               </span>
@@ -93,6 +120,7 @@ const Signup = () => {
             </button>
           </div>
         </form>
+        <div className="mt-3">{errorElement}</div>
         <div className="divider">OR</div>
         <div className="text-center">
           <div className="mx-auto">
@@ -105,13 +133,17 @@ const Signup = () => {
             </button>
           </div>
           <div className="mt-3">
-            <button className="btn btn-outline btn-secondary">
+            <button
+              onClick={() => signInWithFacebook()}
+              className="btn btn-outline btn-secondary"
+            >
               <img className="mr-2 w-7" src={facebookLogo} alt="" />
               Continue with Facebook
             </button>
           </div>
         </div>
       </div>
+      <ToastContainer></ToastContainer>
     </div>
   );
 };
