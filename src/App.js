@@ -27,6 +27,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/" element={<Home></Home>}>
+          <Route index element={<PopUder></PopUder>}></Route>
           <Route path="/popunder" element={<PopUder></PopUder>}></Route>
           <Route path="/bannerad" element={<BannerAd></BannerAd>}></Route>
           <Route path="/native" element={<Native></Native>}></Route>
