@@ -1,5 +1,6 @@
 {
   "name": "mk-tech-task-one",
+  "homepage": "mkadsdigital.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
