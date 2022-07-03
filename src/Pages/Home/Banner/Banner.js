@@ -1,7 +1,7 @@
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
-import bannerImg from "../../../img/banner.png";
+import bannerImg from "../../../img/2.png";
 import "./Banner.css";
 
 const Banner = () => {
@@ -10,7 +10,7 @@ const Banner = () => {
       <div className="md:px-20 px-5">
         <div className="hero min-h-screen">
           <div className="hero-content flex-col lg:flex-row-reverse">
-            <img className="w-72 order-2 md:order-1" src={bannerImg} />
+            <img className="w-96 order-2 md:order-1" src={bannerImg} />
             <div className="order-1 md:order-2">
               <h1 className="text-3xl font-bold banner">
                 AN AD NETWORK <br /> THAT YOU WANT
