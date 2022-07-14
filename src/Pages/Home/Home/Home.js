@@ -15,15 +15,15 @@ const Home = () => {
       <Services></Services>
       <AddFormat></AddFormat>
       <Summary></Summary>
-      <Reviews></Reviews>
-      <div>
+      {/* <Reviews></Reviews> */}
+      {/* <div>
         <div className="hidden md:block">
           <OurPartners></OurPartners>
         </div>
         <div className="block md:hidden">
           <OurPartnersTwo></OurPartnersTwo>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
