@@ -7,11 +7,11 @@ const PublishersPaymentMethods = () => {
   return (
     <div className="md:px-10">
       <div className="pt-10">
-        <h1 className="text-secondary text-2xl mb-14 text-center font-bold">
+        <h1 className="text-secondary text-2xl mb-14 text-center font-bold px-5 md:px-0">
           PUBLISHER PAYMENT METHODS
         </h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-4">
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-8 md:gap-0">
         <div className="w-52 mx-auto">
           <div className="py-4 shadow-xl rounded-md flex justify-center hover:bg-gray-300 duration-500">
             <img className="w-32" src={bkash} alt="" />

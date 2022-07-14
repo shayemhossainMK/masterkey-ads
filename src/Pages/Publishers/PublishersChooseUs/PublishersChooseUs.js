@@ -9,7 +9,7 @@ const PublishersChooseUs = () => {
             WHY PUBLISHERS CHOOSE US?
           </h1>
         </div>
-        <div className="grid grid-cols-2 md:grid-cols-3 gap-x-8 md:gap-x-32 gap-y-10 md:gap-y-20">
+        <div className="grid grid-cols-1 text-center md:text-left md:grid-cols-3 gap-x-8 md:gap-x-32 gap-y-10 md:gap-y-20">
           <div className="">
             <h1 className="text-secondary text-xl mb-3 font-semibold">
               DIRECT ADVERTISERS
