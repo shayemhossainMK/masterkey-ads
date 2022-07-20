@@ -52,7 +52,7 @@ const KeyFeatures = () => {
             icon={faShieldHalved}
           ></FontAwesomeIcon>
           <h1 className="text-primary text-xl mb-3 font-semibold mt-5 ">
-            AD-TARGETING
+            Fraud Detection
           </h1>
           <p>
             We have our own anti-fraud platform that performs full traffic
