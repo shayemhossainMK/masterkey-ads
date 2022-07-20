@@ -1,3 +1,12 @@
+import {
+  faAddressCard,
+  faGlobe,
+  faHeadset,
+  faMoneyCheckDollar,
+  faPersonCircleCheck,
+  faScrewdriverWrench,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 
 const PublishersChooseUs = () => {
@@ -9,27 +18,43 @@ const PublishersChooseUs = () => {
             WHY PUBLISHERS CHOOSE US?
           </h1>
         </div>
-        <div className="grid grid-cols-1 text-center md:text-left md:grid-cols-3 gap-x-8 md:gap-x-32 gap-y-10 md:gap-y-20">
-          <div className="">
-            <h1 className="text-secondary text-xl mb-3 font-semibold">
+        <div className="grid grid-cols-1 text-center md:text-left md:grid-cols-3 gap-x-8 md:gap-x-10 gap-y-10 md:gap-y-20">
+          <div className="text-center shadow-xl rounded-xl p-5 hover:shadow-2xl hover:scale-105 duration-500">
+            <FontAwesomeIcon
+              className="text-6xl mx-auto w-full text-primary"
+              icon={faAddressCard}
+            ></FontAwesomeIcon>
+            <h1 className="text-secondary text-xl mb-3 font-semibold mt-5">
               DIRECT ADVERTISERS
             </h1>
             <p>Lots of advertisers and brands to choose from</p>
           </div>
-          <div className="">
-            <h1 className="text-secondary text-xl mb-3 font-semibold">
+          <div className="text-center shadow-xl rounded-xl p-5 hover:shadow-2xl hover:scale-105 duration-500">
+            <FontAwesomeIcon
+              className="text-6xl mx-auto w-full text-primary"
+              icon={faGlobe}
+            ></FontAwesomeIcon>
+            <h1 className="text-secondary text-xl mb-3 font-semibold mt-5">
               WORLDWIDE GEO COVERAGE
             </h1>
             <p>Coverage up to 10 countries</p>
           </div>
-          <div className="">
-            <h1 className="text-secondary text-xl mb-3 font-semibold">
+          <div className=" text-center shadow-xl rounded-xl p-5 hover:shadow-2xl hover:scale-105 duration-500">
+            <FontAwesomeIcon
+              className="text-6xl mx-auto w-full text-primary"
+              icon={faScrewdriverWrench}
+            ></FontAwesomeIcon>
+            <h1 className="text-secondary text-xl mb-3 font-semibold mt-5">
               USEFUL TOOLS
             </h1>
             <p>Real time analytics and easy to process data system.</p>
           </div>
-          <div className="">
-            <h1 className="text-secondary text-xl mb-3 font-semibold">
+          <div className="text-center shadow-xl rounded-xl p-5 hover:shadow-2xl hover:scale-105 duration-500">
+            <FontAwesomeIcon
+              className="text-6xl mx-auto w-full text-primary"
+              icon={faHeadset}
+            ></FontAwesomeIcon>
+            <h1 className="text-secondary text-xl mb-3 font-semibold mt-5">
               CUSTOMER SUPPORT
             </h1>
             <p>
@@ -37,8 +62,12 @@ const PublishersChooseUs = () => {
               solutions.
             </p>
           </div>
-          <div className="">
-            <h1 className="text-secondary text-xl mb-3 font-semibold">
+          <div className="text-center shadow-xl rounded-xl p-5 hover:shadow-2xl hover:scale-105 duration-500">
+            <FontAwesomeIcon
+              className="text-6xl mx-auto w-full text-primary"
+              icon={faMoneyCheckDollar}
+            ></FontAwesomeIcon>
+            <h1 className="text-secondary text-xl mb-3 font-semibold mt-5">
               TAILORED PAYMENT OPTIONS
             </h1>
             <p>
@@ -48,8 +77,12 @@ const PublishersChooseUs = () => {
               time.
             </p>
           </div>
-          <div className="">
-            <h1 className="text-secondary text-xl mb-3 font-semibold">
+          <div className="text-center shadow-xl rounded-xl p-5 hover:shadow-2xl hover:scale-105 duration-500">
+            <FontAwesomeIcon
+              className="text-6xl mx-auto w-full text-primary"
+              icon={faPersonCircleCheck}
+            ></FontAwesomeIcon>
+            <h1 className="text-secondary text-xl mb-3 font-semibold mt-5">
               FASTEST APPROVAL
             </h1>
             <p>

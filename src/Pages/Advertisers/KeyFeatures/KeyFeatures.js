@@ -1,3 +1,13 @@
+import {
+  faBriefcase,
+  faBullseye,
+  faChartLine,
+  faHeadset,
+  faMasksTheater,
+  faRectangleAd,
+  faShieldHalved,
+} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import React from "react";
 import { Link } from "react-router-dom";
 
@@ -9,16 +19,26 @@ const KeyFeatures = () => {
           KEY FEATURES
         </h1>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-28 gap-y-10 md:gap-y-20">
-        <div className="text-center md:text-left">
-          <h1 className="text-primary text-xl mb-3 font-semibold">ANALYTICS</h1>
-          <p>
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-x-10 gap-y-10 md:gap-y-20">
+        <div className="text-center shadow-xl rounded-xl p-5 hover:shadow-2xl hover:scale-105 duration-500">
+          <FontAwesomeIcon
+            className="text-6xl mx-auto w-full text-secondary"
+            icon={faChartLine}
+          ></FontAwesomeIcon>
+          <h1 className="text-primary text-xl mb-3 font-semibold text-center mt-5">
+            ANALYTICS
+          </h1>
+          <p className="text-center">
             Super user friendly dashboard that provide all of the insights you
             needs as an advertiser.
           </p>
         </div>
-        <div className="text-center md:text-left">
-          <h1 className="text-primary text-xl mb-3 font-semibold">
+        <div className="text-center shadow-xl rounded-xl p-5 hover:shadow-2xl hover:scale-105 duration-500">
+          <FontAwesomeIcon
+            className="text-6xl mx-auto w-full text-secondary"
+            icon={faBriefcase}
+          ></FontAwesomeIcon>
+          <h1 className="text-primary text-xl mb-3 font-semibold mt-5">
             SELF-SERVE PLATFORM
           </h1>
           <p>
@@ -26,8 +46,12 @@ const KeyFeatures = () => {
             analysis in the shortest time possible
           </p>
         </div>
-        <div className="text-center md:text-left">
-          <h1 className="text-primary text-xl mb-3 font-semibold">
+        <div className="text-center shadow-xl rounded-xl p-5 hover:shadow-2xl hover:scale-105 duration-500">
+          <FontAwesomeIcon
+            className="text-6xl mx-auto w-full text-secondary"
+            icon={faShieldHalved}
+          ></FontAwesomeIcon>
+          <h1 className="text-primary text-xl mb-3 font-semibold mt-5 ">
             AD-TARGETING
           </h1>
           <p>
@@ -35,8 +59,12 @@ const KeyFeatures = () => {
             analysis in the shortest time possible
           </p>
         </div>
-        <div className="text-center md:text-left">
-          <h1 className="text-primary text-xl mb-3 font-semibold">
+        <div className="text-center shadow-xl rounded-xl p-5 hover:shadow-2xl hover:scale-105 duration-500">
+          <FontAwesomeIcon
+            className="text-6xl mx-auto w-full text-secondary"
+            icon={faHeadset}
+          ></FontAwesomeIcon>
+          <h1 className="text-primary text-xl mb-3 font-semibold mt-5">
             CUSTOMER SUPPORT
           </h1>
           <p>
@@ -44,8 +72,12 @@ const KeyFeatures = () => {
             analysis in the shortest time possible
           </p>
         </div>
-        <div className="text-center md:text-left">
-          <h1 className="text-primary text-xl mb-3 font-semibold">
+        <div className="text-center shadow-xl rounded-xl p-5 hover:shadow-2xl hover:scale-105 duration-500">
+          <FontAwesomeIcon
+            className="text-6xl mx-auto w-full text-secondary"
+            icon={faRectangleAd}
+          ></FontAwesomeIcon>
+          <h1 className="text-primary text-xl mb-3 font-semibold mt-5">
             VARIOUS AD FORMATS
           </h1>
           <p>
@@ -55,8 +87,12 @@ const KeyFeatures = () => {
             </span>
           </p>
         </div>
-        <div className="text-center md:text-left">
-          <h1 className="text-primary text-xl mb-3 font-semibold">
+        <div className="text-center shadow-xl rounded-xl p-5 hover:shadow-2xl hover:scale-105 duration-500">
+          <FontAwesomeIcon
+            className="text-6xl mx-auto w-full text-secondary"
+            icon={faBullseye}
+          ></FontAwesomeIcon>
+          <h1 className="text-primary text-xl mb-3 font-semibold mt-5">
             AD-TARGETING
           </h1>
           <p>

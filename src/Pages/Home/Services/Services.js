@@ -44,7 +44,7 @@ const Services = () => {
             <div className="w-32 mx-auto p-4 bg-base-100 rounded-full">
               <img className="w-32 mx-auto p-5 " src={influencer} alt="" />
             </div>
-            <p className="py-3 mb-3">Influencer</p>
+            <p className="py-3 mb-3">Partners</p>
             <a href="Influencer.masterkey.digital/bn/access">
               <button className="btn btn-sm service-btn ">Start Earning</button>
             </a>

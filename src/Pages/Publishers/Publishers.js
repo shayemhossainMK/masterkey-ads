@@ -12,7 +12,7 @@ const Publishers = () => {
       <EasyRegister></EasyRegister>
       <PublishersChooseUs></PublishersChooseUs>
       <PublishersPaymentMethods></PublishersPaymentMethods>
-      <PublisherReviews></PublisherReviews>
+      {/* <PublisherReviews></PublisherReviews> */}
     </div>
   );
 };

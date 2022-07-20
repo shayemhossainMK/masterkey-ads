@@ -59,9 +59,9 @@ const Navbar = () => {
               <li>
                 <CustomLinkTwo to="/publishers">PUBLISHERS</CustomLinkTwo>
               </li>
-              <li>
+              {/* <li>
                 <CustomLinkTwo to="/influancers">INFLUENCERS</CustomLinkTwo>
-              </li>
+              </li> */}
               <li>
                 <CustomLinkTwo to="/addformatsmain">AD FORMATS</CustomLinkTwo>
               </li>
@@ -86,9 +86,9 @@ const Navbar = () => {
             <li>
               <CustomLinkTwo to="/publishers">PUBLISHERS</CustomLinkTwo>
             </li>
-            <li>
+            {/* <li>
               <CustomLinkTwo to="/influancers">INFLUENCERS</CustomLinkTwo>
-            </li>
+            </li> */}
             <li>
               <CustomLinkTwo to="/addformatsmain">AD FORMATS</CustomLinkTwo>
             </li>

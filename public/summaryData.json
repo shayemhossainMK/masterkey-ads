@@ -2,13 +2,13 @@
     {
         "id": "001",
        "text":"Daily Impressions",
-        "number": "1000000",
+        "number": "10000000",
         "duration": "3"
     },
     {
         "id": "002",
         "text":"Active Publishers",
-        "number": "8000",
+        "number": "20000",
         "duration": "3"
     },
     {

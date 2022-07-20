@@ -20,7 +20,7 @@ const Banner = () => {
                 Masterkey Digital is a global ad network that offers mutually
                 beneficial cooperation for everyone - webmasters, advertisers,
                 media buyers, and ad networks. Today we work globally with more
-                than 100 GEOs and can offer different ad formats.
+                than 13+ GEO's and can offer different ad formats.
               </p>
 
               <button className="btn btn-primary btn-sm  rounded-full text-white mb-10 hover:bg-transparent hover:text-secondary duration-300">
