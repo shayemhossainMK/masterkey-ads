@@ -41,11 +41,11 @@ const Footer = () => {
               PUBLISHERS
             </Link>
             <br />
-            <br />
+            {/* <br />
             <Link to="/influancers" className="font-semibold hover:underline">
               INFLUENCERS
             </Link>
-            <br />
+            <br /> */}
             <br />
             <Link
               to="/addformatsmain"
